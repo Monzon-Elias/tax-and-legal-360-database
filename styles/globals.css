@@ -1,0 +1,21 @@
+.boxed-p {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.boxed-p-text {
+  flex: 1;
+}
+
+.boxed-p-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.boxed-p-icons > * {
+  cursor: pointer;
+}
